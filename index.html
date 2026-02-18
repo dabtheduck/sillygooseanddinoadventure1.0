@@ -16,6 +16,22 @@ h1,h2,p,label,button { font-family: 'Josefin Sans', sans-serif; }
 #titlePage h1 { text-align:center; font-size:32px; color:#4a90e2; margin-bottom:30px; }
 #introPage h2 { text-align:center; font-size:26px; margin-bottom:15px; }
 
+.title-image {
+display: block;          /* Make the image a block element so margin works */
+margin: 0 auto 20px;     /* Center horizontally and add 20px bottom space */
+max-width: 80%;          /* Image won’t exceed 80% of container width */
+height: auto;            /* Maintain aspect ratio */
+border-radius: 12px;     /* Optional: rounded corners */
+}
+
+.adventure-image {
+display: block;          /* Make the image a block element so margin works */
+margin: 0 auto 20px;     /* Center horizontally and add 20px bottom space */
+max-width: 80%;          /* Image won’t exceed 80% of container width */
+height: auto;            /* Maintain aspect ratio */
+border-radius: 12px;     /* Optional: rounded corners */
+}
+
 button { padding:10px 18px; font-size:16px; border-radius:8px; border:none; cursor:pointer; margin-top:10px; transition: all 0.2s ease; }
 button.next { background:#4a90e2; color:white; }
 button.next:hover { background:#357ABD; transform: translateY(-2px); }
